@@ -14,7 +14,7 @@ int main() {
     const char* ip_address = "127.0.0.1";
     //changed port
     const int port_no = 1255;
-    // create udp socket using IPv4
+    // create udp socket using IPv4 
     int sock = socket(AF_INET, SOCK_DGRAM, 0);
     // checking if socket creating succeed
     if (sock < 0) {
