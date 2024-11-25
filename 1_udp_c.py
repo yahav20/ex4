@@ -19,6 +19,6 @@ s.sendto(b'Hello', (dst_ip,dst_port))
 # i changed the maxsimum bit that can recieved
 data, sender_info = s.recvfrom(1024)
 #print the returned mesaage
-print ("The server have told : " , data)
+print ("The server have told: " , data)
 # close socket
 s.close()

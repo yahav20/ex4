@@ -27,5 +27,5 @@ while True:
     print("oh i got something!")
     #return the message to sender but using upper method to convert message to upper case
     s.sendto(data.lower(), sender_info)
-    print("i sent something !")
+    print("i sent something!")
 
