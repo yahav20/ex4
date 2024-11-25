@@ -1,3 +1,4 @@
+// importing all neccercy socket libaries
 #include <iostream>
 #include <sys/socket.h>
 #include <stdio.h>
